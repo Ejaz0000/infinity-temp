@@ -15,7 +15,8 @@ const nextConfig = {
             },
             {
                 protocol: 'https',
-                hostname: 'api.timecraftbd.com',
+                hostname: '72.61.148.231',
+                port: '8034',
                 pathname: '/**',
             }
         ]
