@@ -5,7 +5,7 @@ const nextConfig = {
         NEXT_PUBLIC_BASE_URL: process.env.NEXT_PUBLIC_BASE_URL,
     },
     images: {
-        unoptimized: true,
+        // unoptimized: true,
         remotePatterns: [
             {
                 protocol: 'http',
@@ -14,9 +14,8 @@ const nextConfig = {
                 pathname: '**',
             },
             {
-                protocol: 'http',
-                hostname: '72.61.148.231',
-                port: '8034',
+                protocol: 'https',
+                hostname: 'infinityzonebackend.bongoshoes.com',
                 pathname: '/**',
             }
         ]
