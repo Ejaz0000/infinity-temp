@@ -243,7 +243,7 @@ const ProductDetailsPage = ({ productData }) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-6">
           {/* Left Column - Images */}
           <div>
-            <ImageGallery images={galleryImages} title={productData.title} currentVariantId={currentVariant?.id} />
+            <ImageGallery images={galleryImages} title={productData.title} currentVariantId={selectedAttributes?.['Color'] || selectedAttributes?.['color'] || selectedAttributes?.['Colour'] || selectedAttributes?.['colour']} />
           </div>
 
           {/* Right Column - Product Details */}
@@ -311,7 +311,7 @@ const ProductDetailsPage = ({ productData }) => {
                 </div>
               ) : isInStock ? (
                 <p className="text-sm font-semibold" style={{ color: 'var(--success)' }}>
-                  ✓ In Stock ({currentStock} available)
+                  ✓ In Stock
                 </p>
               ) : (
                 <p className="text-sm font-semibold" style={{ color: 'var(--error)' }}>
@@ -446,7 +446,7 @@ const ProductDetailsPage = ({ productData }) => {
                     className="text-gray-600"
                     style={{ color: isInStock ? 'var(--success)' : 'var(--error)' }}
                   >
-                    {!currentVariant ? 'Select options' : isInStock ? `${currentStock} in stock` : 'Out of stock'}
+                    {!currentVariant ? 'Select options' : isInStock ? `In stock` : 'Out of stock'}
                   </p>
                 </div>
                 {productData.variant_count > 0 && (

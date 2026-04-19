@@ -1,8 +1,8 @@
 export const metadata = {
-  title: 'My Account - GearZ Bangladesh',
+  title: 'My Account - Infinity Shoes Bangladesh',
   description: 'Manage your profile, orders, addresses, and account settings. Track your orders and update your preferences.',
   openGraph: {
-    title: 'My Account - GearZ Bangladesh',
+    title: 'My Account - Infinity Shoes Bangladesh',
     description: 'Manage your account and orders',
     type: 'website',
   },

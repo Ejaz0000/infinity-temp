@@ -1,9 +1,9 @@
 export const metadata = {
-  title: 'Checkout - GearZ Bangladesh',
+  title: 'Checkout - Infinity Shoes Bangladesh',
   description: 'Complete your order securely. Fast delivery across Bangladesh with multiple payment options available.',
   openGraph: {
-    title: 'Checkout - GearZ Bangladesh',
-    description: 'Secure checkout for your bike gear purchase',
+    title: 'Checkout - Infinity Shoes Bangladesh',
+    description: 'Secure checkout for your shoe and footwear purchase',
     type: 'website',
   },
 };

@@ -8,7 +8,7 @@ const ImageGallery = ({ images = [], title = 'Product', currentVariantId }) => {
   console.log('ImageGallery props', { images, title, currentVariantId });
 
   useEffect(() => {
-    const selectedIndex = images.findIndex(img => img.variant_id === currentVariantId);
+    const selectedIndex = images.findIndex(img => img.color === currentVariantId);
     if (selectedIndex !== -1) {
       setSelectedImageIndex(selectedIndex);
     } else {

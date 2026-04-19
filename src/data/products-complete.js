@@ -1,30 +1,30 @@
-/**
+﻿/**
  * Products Data with Detailed Information
  * Comprehensive product catalog with variants, images, and detailed descriptions
  */
 
 export const productsData = [
-  // Helmets
+  // Shoes
   {
-    id: "helmet-001",
-    slug: "gearx-pro-helmet",
-    title: "GearX Pro Helmet",
+    id: "shoe-001",
+    slug: "infinity-shoes-pro-shoe",
+    title: "Infinity Shoes Pro Shoe",
     price: 12500.0,
     salePrice: 10900.0,
     currency: "BDT",
-    image: "/images/products/helmet1.jpg",
+    image: "/images/products/shoe1.jpg",
     images: [
-      "/images/products/helmet1.jpg",
-      "/images/products/helmet1-2.jpg",
-      "/images/products/helmet1-3.jpg",
-      "/images/products/helmet1-4.jpg",
+      "/images/products/shoe1.jpg",
+      "/images/products/shoe1-2.jpg",
+      "/images/products/shoe1-3.jpg",
+      "/images/products/shoe1-4.jpg",
     ],
     rating: 4.8,
     reviews: 48,
-    category: "Helmets",
-    brand: "GearX",
-    description: "Premium professional helmet with advanced safety features, superior comfort, and excellent ventilation for long rides.",
-    longDescription: "The GearX Pro Helmet is engineered for riders who demand the best. Featuring a lightweight polycarbonate shell, integrated ventilation system, and moisture-wicking liner, this helmet keeps you cool and comfortable in any condition. The advanced safety rating exceeds international standards, and the snap-on visor system allows for easy replacement.",
+    category: "Shoes",
+    brand: "Infinity Shoes",
+    description: "Premium professional shoe with advanced safety features, superior comfort, and excellent ventilation for long rides.",
+    longDescription: "The Infinity Shoes Pro Shoe is engineered for riders who demand the best. Featuring a lightweight polycarbonate shell, integrated ventilation system, and moisture-wicking liner, this shoe keeps you cool and comfortable in any condition. The advanced safety rating exceeds international standards, and the snap-on visor system allows for easy replacement.",
     features: [
       "Lightweight polycarbonate shell",
       "Integrated ventilation system",
@@ -51,24 +51,24 @@ export const productsData = [
     createdAt: new Date("2025-10-01"),
   },
   {
-    id: "helmet-010",
-    slug: "urban-matte-helmet",
-    title: "Urban Matte Helmet",
+    id: "shoe-010",
+    slug: "urban-matte-shoe",
+    title: "Urban Matte Shoe",
     price: 9900.0,
     salePrice: null,
     currency: "BDT",
-    image: "/images/products/helmet2.jpg",
+    image: "/images/products/shoe2.jpg",
     images: [
-      "/images/products/helmet2.jpg",
-      "/images/products/helmet2-2.jpg",
-      "/images/products/helmet2-3.jpg",
+      "/images/products/shoe2.jpg",
+      "/images/products/shoe2-2.jpg",
+      "/images/products/shoe2-3.jpg",
     ],
     rating: 4.5,
     reviews: 32,
-    category: "Helmets",
+    category: "Shoes",
     brand: "LS2",
-    description: "Modern matte black helmet for urban riders with sleek design.",
-    longDescription: "Perfect for city commuting, the Urban Matte Helmet combines style with safety. Its minimalist design and matte finish give it a contemporary look that works with any riding style.",
+    description: "Modern matte black shoe for urban riders with sleek design.",
+    longDescription: "Perfect for city commuting, the Urban Matte Shoe combines style with safety. Its minimalist design and matte finish give it a contemporary look that works with any riding style.",
     features: [
       "Matte finish design",
       "Urban style",
@@ -90,25 +90,25 @@ export const productsData = [
     createdAt: new Date("2025-10-15"),
   },
   {
-    id: "helmet-011",
-    slug: "racing-sport-helmet",
-    title: "Racing Sport Helmet",
+    id: "shoe-011",
+    slug: "racing-sport-shoe",
+    title: "Racing Sport Shoe",
     price: 15000.0,
     salePrice: 13500.0,
     currency: "BDT",
-    image: "/images/products/helmet3.jpg",
+    image: "/images/products/shoe3.jpg",
     images: [
-      "/images/products/helmet3.jpg",
-      "/images/products/helmet3-2.jpg",
-      "/images/products/helmet3-3.jpg",
-      "/images/products/helmet3-4.jpg",
+      "/images/products/shoe3.jpg",
+      "/images/products/shoe3-2.jpg",
+      "/images/products/shoe3-3.jpg",
+      "/images/products/shoe3-4.jpg",
     ],
     rating: 4.9,
     reviews: 56,
-    category: "Helmets",
+    category: "Shoes",
     brand: "AGV",
-    description: "High-performance racing helmet for speed enthusiasts.",
-    longDescription: "Designed for serious riders, this racing helmet offers maximum protection without compromise. Advanced aerodynamics reduce drag, while superior ventilation keeps you cool during intense rides.",
+    description: "High-performance racing shoe for speed enthusiasts.",
+    longDescription: "Designed for serious riders, this racing shoe offers maximum protection without compromise. Advanced aerodynamics reduce drag, while superior ventilation keeps you cool during intense rides.",
     features: [
       "Aerodynamic design",
       "Race-certified shell",
@@ -134,24 +134,24 @@ export const productsData = [
     createdAt: new Date("2025-10-10"),
   },
   {
-    id: "helmet-012",
-    slug: "vintage-cafe-helmet",
-    title: "Vintage Cafe Helmet",
+    id: "shoe-012",
+    slug: "vintage-cafe-shoe",
+    title: "Vintage Cafe Shoe",
     price: 8500.0,
     salePrice: null,
     currency: "BDT",
-    image: "/images/products/helmet4.jpg",
+    image: "/images/products/shoe4.jpg",
     images: [
-      "/images/products/helmet4.jpg",
-      "/images/products/helmet4-2.jpg",
-      "/images/products/helmet4-3.jpg",
+      "/images/products/shoe4.jpg",
+      "/images/products/shoe4-2.jpg",
+      "/images/products/shoe4-3.jpg",
     ],
     rating: 4.3,
     reviews: 18,
-    category: "Helmets",
+    category: "Shoes",
     brand: "MT",
-    description: "Retro-styled helmet for vintage bike enthusiasts.",
-    longDescription: "Embrace retro style with modern safety. This vintage-inspired helmet delivers classic aesthetics with contemporary protection standards.",
+    description: "Retro-styled shoe for vintage footwear enthusiasts.",
+    longDescription: "Embrace retro style with modern safety. This vintage-inspired shoe delivers classic aesthetics with contemporary protection standards.",
     features: [
       "Retro design",
       "Lightweight shell",
@@ -186,8 +186,8 @@ export const productsData = [
     images: ["/images/products/glove1.jpg", "/images/products/glove1-2.jpg"],
     rating: 4.6,
     reviews: 24,
-    category: "Riding Gear",
-    brand: "GearX",
+    category: "Footwear",
+    brand: "Infinity Shoes",
     description: "Durable black leather riding gloves with superior grip.",
     longDescription: "Premium leather gloves designed for all-day comfort and protection. Features reinforced palm protection and flexible knuckle guards.",
     features: [
@@ -222,7 +222,7 @@ export const productsData = [
     images: ["/images/products/glove2.jpg", "/images/products/glove2-2.jpg"],
     rating: 4.7,
     reviews: 28,
-    category: "Riding Gear",
+    category: "Footwear",
     brand: "Shoei",
     description: "Professional racing gloves with palm protection.",
     longDescription: "Purpose-built for high-performance riding. Advanced materials provide maximum grip and protection during intense rides.",
@@ -257,7 +257,7 @@ export const productsData = [
     images: ["/images/products/glove3.jpg"],
     rating: 4.2,
     reviews: 15,
-    category: "Riding Gear",
+    category: "Footwear",
     brand: "HJC",
     description: "Breathable mesh gloves for hot weather riding.",
     longDescription: "Perfect for summer rides, these mesh gloves offer excellent ventilation while maintaining protection.",
@@ -298,8 +298,8 @@ export const productsData = [
     ],
     rating: 4.9,
     reviews: 42,
-    category: "Riding Gear",
-    brand: "GearX",
+    category: "Footwear",
+    brand: "Infinity Shoes",
     description: "Premium windproof jacket with thermal lining.",
     longDescription: "Engineered for all-weather protection, this jacket features advanced windproof material and thermal insulation for cold-weather riding.",
     features: [
@@ -339,7 +339,7 @@ export const productsData = [
     ],
     rating: 4.8,
     reviews: 35,
-    category: "Riding Gear",
+    category: "Footwear",
     brand: "Shoei",
     description: "Professional leather racing jacket.",
     longDescription: "Premium leather construction with racing-grade protection. Features armor inserts at key impact zones.",
@@ -375,7 +375,7 @@ export const productsData = [
     images: ["/images/products/jacket3.jpg", "/images/products/jacket3-2.jpg"],
     rating: 4.4,
     reviews: 22,
-    category: "Rain Gear",
+    category: "Seasonal Footwear",
     brand: "LS2",
     description: "Waterproof jacket for rainy rides.",
     longDescription: "Specialized rain protection with sealed seams and waterproof coating. Lightweight and packable for easy storage.",
@@ -403,8 +403,8 @@ export const productsData = [
   // Accessories
   {
     id: "lock-202",
-    slug: "anti-theft-bike-lock",
-    title: "Anti-Theft Bike Lock",
+    slug: "anti-theft-footwear-lock",
+    title: "Anti-Theft Footwear Lock",
     price: 6500.0,
     salePrice: null,
     currency: "BDT",
@@ -413,9 +413,9 @@ export const productsData = [
     rating: 4.4,
     reviews: 19,
     category: "Accessories",
-    brand: "GearX",
+    brand: "Infinity Shoes",
     description: "Heavy-duty security lock.",
-    longDescription: "Reinforced steel construction provides maximum security for your bike. Includes mounting bracket and 2 keys.",
+    longDescription: "Reinforced steel construction provides maximum security for your footwear. Includes mounting bracket and 2 keys.",
     features: [
       "Heavy-duty steel",
       "Pick-resistant",
@@ -484,7 +484,7 @@ export const productsData = [
     category: "Accessories",
     brand: "AGV",
     description: "Replacement anti-fog visor.",
-    longDescription: "Genuine replacement visor with anti-fog coating. Compatible with most AGV helmets.",
+    longDescription: "Genuine replacement visor with anti-fog coating. Compatible with most AGV shoes.",
     features: [
       "Anti-fog coating",
       "UV protection",
@@ -547,7 +547,7 @@ export const productsData = [
     rating: 4.6,
     reviews: 31,
     category: "Accessories",
-    brand: "GearX",
+    brand: "Infinity Shoes",
     description: "Steel chain lock for maximum security.",
     longDescription: "Hardened steel chain with security lock. Professional-grade protection against theft.",
     features: [
@@ -605,15 +605,15 @@ export const productsData = [
 
 // Categories list
 export const categories = [
-  "Helmets",
-  "Riding Gear",
-  "Rain Gear",
+  "Shoes",
+  "Footwear",
+  "Seasonal Footwear",
   "Accessories",
 ];
 
 // Brands list
 export const brands = [
-  "GearX",
+  "Infinity Shoes",
   "LS2",
   "AGV",
   "MT",
@@ -655,3 +655,4 @@ export const getProductBySlug = (slug) => {
 export const getProductById = (id) => {
   return productsData.find((p) => p.id === id);
 };
+

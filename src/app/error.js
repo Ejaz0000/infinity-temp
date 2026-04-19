@@ -150,11 +150,11 @@ export default function Error({ error, reset }) {
             <span>
               If the problem persists, contact us at{' '}
               <a 
-                href="mailto:info@gearzbd.com"
+                href="mailto:info@infinityshoes.com"
                 className="font-semibold hover:underline"
                 style={{ color: 'var(--accent-orange)' }}
               >
-                info@gearzbd.com
+                info@infinityshoes.com
               </a>
             </span>
           </div>

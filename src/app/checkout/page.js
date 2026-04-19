@@ -19,8 +19,17 @@ export default function Checkout() {
 
   // Redirect to products if cart is empty
   if (!loading && cart && (!cart.items || cart.items.length === 0)) {
-    router.push('/products');
-    return null;
+    return (
+      <div className="flex flex-col items-center justify-center bg-white min-h-screen">
+        <h2 className="text-2xl font-semibold mb-4 text-gray-600">Your cart is empty</h2>
+        <button
+          onClick={() => router.push('/products')}
+          className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+        >
+          Browse Products
+        </button>
+      </div>
+    );
   }
 
   return <CheckoutPage cart={cart} user={user} loading={loading} />;

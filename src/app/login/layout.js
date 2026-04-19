@@ -1,8 +1,8 @@
 export const metadata = {
-  title: 'Login - GearZ Bangladesh',
-  description: 'Sign in to your GearZ Bangladesh account to access your orders, wishlist, and exclusive deals on bike helmets and riding gear.',
+  title: 'Login - Infinity Shoes Bangladesh',
+  description: 'Sign in to your Infinity Shoes Bangladesh account to access your orders, wishlist, and exclusive deals on shoes and footwear.',
   openGraph: {
-    title: 'Login - GearZ Bangladesh',
+    title: 'Login - Infinity Shoes Bangladesh',
     description: 'Sign in to your account',
     type: 'website',
   },

@@ -19,13 +19,13 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "InfinityShoes - Premium Bike Helmets & Riding Gear",
-  description: "Shop premium quality bike helmets, riding gear, and motorcycle accessories in Bangladesh. InfinityShoes offers authentic branded products with warranty and fast delivery across Bangladesh.",
-  keywords: "bike helmet Bangladesh, motorcycle helmet, riding gear, bike accessories, InfinityShoes",
-  authors: [{ name: "InfinityShoes" }],
+  title: "Infinity Shoes - Premium Shoes & Footwear",
+  description: "Shop premium shoes, sneakers, sandals, and lifestyle footwear in Bangladesh. Infinity Shoes offers authentic branded products with warranty and fast delivery across Bangladesh.",
+  keywords: "shoes Bangladesh, sneakers Bangladesh, footwear Dhaka, casual shoes, running shoes, Infinity Shoes",
+  authors: [{ name: "Infinity Shoes" }],
   openGraph: {
-    title: "InfinityShoes - Premium Bike Helmets & Riding Gear",
-    description: "Shop premium quality bike helmets and riding gear in Bangladesh",
+    title: "Infinity Shoes - Premium Shoes & Footwear",
+    description: "Shop premium quality shoes and footwear in Bangladesh",
     type: "website",
     locale: "en_US",
   },

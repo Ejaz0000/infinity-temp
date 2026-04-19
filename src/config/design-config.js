@@ -1,5 +1,5 @@
-/**
- * InfinityShoes - Design Configuration
+﻿/**
+ * Infinity Shoes - Design Configuration
  * 
  * This file contains all design tokens including colors, spacing, typography,
  * and other variables used throughout the landing page design.
@@ -8,7 +8,7 @@
  */
 
 export const designConfig = {
-  // Primary Color Palette - InfinityShoes Brand Colors
+  // Primary Color Palette - Infinity Shoes Brand Colors
   colors: {
     // Primary Colors - New Dark Theme
     primary: {
@@ -164,3 +164,4 @@ export const designConfig = {
 };
 
 export default designConfig;
+

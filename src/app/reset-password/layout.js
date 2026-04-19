@@ -1,8 +1,8 @@
 export const metadata = {
-  title: 'Reset Password - GearZ Bangladesh',
-  description: 'Reset your GearZ Bangladesh account password securely.',
+  title: 'Reset Password - Infinity Shoes Bangladesh',
+  description: 'Reset your Infinity Shoes Bangladesh account password securely.',
   openGraph: {
-    title: 'Reset Password - GearZ Bangladesh',
+    title: 'Reset Password - Infinity Shoes Bangladesh',
     description: 'Reset your account password',
     type: 'website',
   },

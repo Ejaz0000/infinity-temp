@@ -3,12 +3,12 @@ import ProductsPage from '@/components/products/ProductsPage';
 import { axiosInstance } from '@/utils/axiosInstance';
 
 export const metadata = {
-  title: 'All Products - GearZ Bangladesh | Helmets, Riding Gear & Accessories',
-  description: 'Browse our complete collection of premium bike helmets, riding gear, and motorcycle accessories. Shop authentic branded products with warranty and fast delivery across Bangladesh.',
-  keywords: 'bike helmets, motorcycle gear, riding accessories, helmet brands Bangladesh',
+  title: 'All Products - Infinity Shoes Bangladesh | Shoes, Sneakers & Footwear',
+  description: 'Browse our complete collection of premium shoes, sneakers, sandals, and lifestyle footwear. Shop authentic branded products with warranty and fast delivery across Bangladesh.',
+  keywords: 'shoes Bangladesh, sneakers, footwear, sandals, formal shoes Bangladesh',
   openGraph: {
-    title: 'All Products - GearZ Bangladesh',
-    description: 'Browse premium bike helmets, riding gear, and motorcycle accessories',
+    title: 'All Products - Infinity Shoes Bangladesh',
+    description: 'Browse premium shoes, sneakers, and footwear collections',
     type: 'website',
   },
 };
